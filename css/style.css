@@ -147,6 +147,7 @@ body {
 }
 
 .header_subtitle {
+    font-size: 20px;
     line-height: 100%;
     text-align: center;
     color: rgba(255, 255, 255, 0.57);
@@ -156,7 +157,7 @@ body {
 
 .header_btn {
     font-size: 13px;
-    padding: 23px 55px;
+    padding: 15px 55px;
     color: #3a393a;
     background-color: #a1bd11;
     margin-bottom: auto;
@@ -569,7 +570,7 @@ body {
     color: #fff;
     background-color: #3a393a;
     border: 2px solid #3a393a;
-    padding: 30px 0;
+    padding: 20px 0;
     font-size: 13px;
     transition: background-color 0.3s;
     z-index: 99;
