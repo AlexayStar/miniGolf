@@ -413,7 +413,6 @@ body {
 }
 
 .gallery_item-1 {
-    background-image: url('../img/gallery/gallety-img-1.webp');
     grid-column: span 4;
     background-repeat: no-repeat;
 }
@@ -434,35 +433,28 @@ body {
 }
 
 .gallery_item-3 {
-    background-image: url('../img/gallery/gallety-img-3.webp');
     grid-column: span 2;
     background-repeat: no-repeat;
 }
 
 .gallery_item-4 {
-    background-image: url('../img/gallery/gallety-img-4.webp');
-
     background-repeat: no-repeat;
 }
 
 .gallery_item-5 {
-    background-image: url('../img/gallery/gallety-img-5.webp');
+    display: block;
     grid-row: span 1;
     background-repeat: no-repeat;
-    height: 188px;
     margin-bottom: 30px;
 
 }
 
 .gallery_item-6 {
-    background-image: url('../img/gallery/gallety-img-6.webp');
     grid-row: span 1;
     background-repeat: no-repeat;
-    height: 189px;
 }
 
 .gallery_item-7 {
-    background-image: url('../img/gallery/gallety-img-7.webp');
     grid-column: span 2;
     background-repeat: no-repeat;
 }
