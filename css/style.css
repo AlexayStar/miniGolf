@@ -390,6 +390,10 @@ body {
     padding: 10px;
 }
 
+.organization_title {
+    line-height: 24px;
+}
+
 .organization_bg {
     display: flex;
     flex-direction: column;
@@ -819,7 +823,7 @@ body {
         max-width: 540px;
         height: 300px;
     }
-    
+
     .footer_inner {
         flex-direction: column;
         align-items: center;
@@ -841,6 +845,7 @@ body {
 @media (max-width: 485px) {
     .about_top-item {
         max-width: 280px;
+        margin-right: 0;
     }
 
     .about_top-text {
@@ -861,7 +866,7 @@ body {
     .header_btn {
         margin-top: 50px;
     }
-    
+
     .popup_form {
         width: 300px;
     }
