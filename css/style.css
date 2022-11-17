@@ -535,12 +535,16 @@ body {
     align-items: center;
 }
 
-.gallery_item {
+.gallery_block-inner{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100%;
+}
+
+.gallery_block {
+    margin-bottom: 20px;
 }
 
 /*------------------------ Order -------------------------------*/
