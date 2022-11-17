@@ -855,16 +855,16 @@ body {
 
 @media(max-width: 425px) {
     .header_content-inner {
-        height: calc(100vh - 200px);
+        height: calc(100vh - 100px);
     }
 
     .header_title {
-        margin-top: 80px;
-        margin-bottom: 50px;
+        margin-top: 30px;
+        margin-bottom: 30px;
     }
 
     .header_btn {
-        margin-top: 50px;
+        margin-top: 30px;
     }
 
     .popup_form {
