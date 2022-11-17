@@ -17,3 +17,10 @@ document.addEventListener('click', (e) => {
         popup.classList.remove('popup_active');
     }
 });
+
+const menubBtn = document.querySelector('.menu_btn');
+const menuList = document.querySelector('.menu_list');
+
+menubBtn.addEventListener('click', () => {
+    menuList.classList.toggle('menu_list-active')
+});
