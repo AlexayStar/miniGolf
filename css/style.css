@@ -500,11 +500,7 @@ body {
 }
 
 .gallery_title {
-    position: absolute;
     color: #3a393a;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%);
 }
 
 .gallery_item-3 {
@@ -537,6 +533,14 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.gallery_item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
 }
 
 /*------------------------ Order -------------------------------*/
